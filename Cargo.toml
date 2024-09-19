@@ -1,0 +1,19 @@
+[package]
+name = "simple-rust-image-resizer"
+version = "1.0.0"
+authors = ["Joshua Vaughn <https://github.com/010josh010>"]
+edition = "2021"
+description = "Resizes an image file and optionally saves it to a new file."
+repository = "https://github.com/010josh010/simple-rust-image-resizer"
+license = "MIT"
+keywords = ["image", "resize"]
+categories = ["command-line-utilities"]
+readme = "README.md"
+
+[[bin]]
+name = "image-resizer"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5.19", features = ["derive"] }
+image = "0.25.2"
