@@ -1,5 +1,5 @@
 # simple-rust-image-resizer
-Resizes an image file and optionally saves it to a new file
+The Simple Rust Image Resizer is a command-line tool that efficiently resizes images individually or in batches.
 
 ## Supported Image Formats
 The program supports various image formats, including:
